@@ -1,0 +1,62 @@
+.upperFooter-main {
+  display: flex;
+  justify-content: space-evenly;
+  /* justify-content: space-between; */
+  /* margin: 20px; */
+  padding: 20px;
+  background: hsl(192, 45%, 98%);
+  border-top: 1px solid rgb(69, 66, 66);
+}
+.app-logo h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 25px 0px;
+  text-align: left;
+  color: rgb(76, 74, 74);
+}
+.app-logo img {
+  width: 180px;
+  height: 50px;
+  padding-right: 30px;
+  margin-bottom: 15px;
+}
+.UpperFooter-link {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.UpperFooter-link a {
+  margin-top: 25px;
+  text-decoration: none;
+  color: rgb(76, 74, 74);
+  text-align: left;
+}
+
+.queries p{
+    padding: 20px;
+    color: rgb(76, 74, 74);
+    background: hsl(192, 45%, 98%);
+    border-top: 1px solid #e4d7d7;
+    /* border-bottom: 1px solid #b1aeae; */
+    /* width: 80%; */
+    /* margin: auto; */
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+  .upperFooter-main {
+  flex-direction: column;
+    padding: 10px;
+}
+
+.UpperFooter-link {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.queries p{
+  line-height: 20px;
+}
+}

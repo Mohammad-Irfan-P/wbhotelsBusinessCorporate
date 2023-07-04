@@ -1,0 +1,268 @@
+body * {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.full-section {
+  padding-top: 20px;
+  background-image: linear-gradient(
+    to right,
+    rgb(37, 14, 189),
+    rgb(6, 14, 122)
+  );
+}
+
+.booking-heading {
+  width: 54%;
+  margin: auto;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.booking-heading h3 {
+  font-size: 22px;
+  line-height: 28px;
+  margin: 8px;
+  color: #fff;
+  font-weight: 300;
+}
+.booking-heading h3 span {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.superAgent-main {
+  display: grid;
+  grid-template-columns: auto 47%;
+  padding-left: 40px;
+}
+
+.title-main-div {
+  width: 90%;
+  margin: auto;
+}
+.title-img-main {
+  display: flex;
+  align-items: center;
+}
+.title-img-main img {
+  width: 130px;
+  height: 130px;
+  margin-top: 45px;
+  margin-right: 20px;
+}
+.jumbo-title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-top: 60px;
+  color: #fff;
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.jumbo-title2 {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-align: justify;
+}
+.mt-5,
+.my-5 {
+  margin-top: 3rem !important;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.jumbo-counter-text {
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 12px;
+  line-height: 30px;
+}
+
+.help {
+  background-color: #fff;
+  border-radius: 100px;
+  display: block;
+  color: black !important;
+  font-weight: 500;
+  height: 80px;
+}
+
+.need-help-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  /* line-height: 20px; */
+  text-align: justify;
+  padding-left: 12px;
+}
+.need-help-main {
+  display: flex;
+  padding: 10px;
+}
+
+.need-help-button {
+  width: 350px;
+  margin-top: 100px;
+  margin-left: 33px;
+}
+
+.SuperAgent-Businesswb {
+  width: 90%;
+  margin: auto;
+}
+
+.SuperAgent-notification {
+  position: absolute;
+  top: 27%;
+  left: 67%;
+  width: 200px;
+  height: 50px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+}
+
+.SuperAgent-notification::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.SuperAgent-notification p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 18px;
+  padding: 2px;
+}
+
+.toggle-false {
+  display: none;
+}
+
+.looooogo img {
+  /* background-color: #0d9488; */
+  color: #0d9488;
+}
+
+
+@media screen and (max-width: 850px) {
+  .booking-heading {
+    width: 90%;
+  }
+
+  .superAgent-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 0px;
+  }
+
+  .title-img-main img {
+    width: 110px;
+    height: 110px;
+    margin-top: 45px;
+    margin-right: 0px;
+  }
+
+  .title-main-div {
+    width: 100%;
+   padding: 15px;
+}
+
+  .title-img-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jumbo-title {
+    font-size: 25px;
+    line-height: 30px;
+    margin: 30px 0 0 0;
+}
+
+.jumbo-title2 {
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.SuperAgent-notification {
+  top: 103%;
+  left: 30%;
+}
+
+}
+
+
+@media screen and (max-width: 450px) {
+.need-help-button {
+  width: 290px;
+  margin-left: 0px;
+}
+
+.booking-heading {
+  width: 100%;
+}
+
+.superAgent-main {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding-left: 0px;
+}
+
+.title-img-main img {
+  width: 110px;
+  height: 110px;
+  margin-top: 20px;
+  margin-right: 0px;
+}
+
+.title-main-div {
+  width: 100%;
+ padding: 15px;
+}
+
+.title-img-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbo-title {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 20px 0 0 0;
+}
+
+.jumbo-title2 {
+margin-top: 15px;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+}
+
+.SuperAgent-notification {
+top: 113%;
+left: 12%;
+}
+
+}
