@@ -95,9 +95,14 @@ body * {
   background-color: #fff;
   border-radius: 100px;
   display: block;
-  color: black !important;
+  color: black ;
   font-weight: 500;
   height: 80px;
+}
+
+.help:hover{
+  background: #1976d2;
+  color: #fff;
 }
 
 .need-help-text {

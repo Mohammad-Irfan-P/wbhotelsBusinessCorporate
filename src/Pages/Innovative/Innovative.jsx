@@ -35,11 +35,11 @@ const Innovative = () => {
             <div className="img-three-main">
               <div>
                 <img src={location} alt="location" />
-                <p>200+Locations</p>
+                <p>250+Locations</p>
               </div>
               <div>
                 <img src={room} alt="room" />
-                <p>45,000+Rooms</p>
+                <p>75,000+Rooms</p>
               </div>
               <div>
                 <img src={city} alt="cities" />
@@ -61,7 +61,7 @@ const Innovative = () => {
                   <div>
                     <strong>Save Cost</strong>
                     <p>
-                      Get easy access to 1500+ W B hotels & resorts properties
+                      Get easy access to 3500+ W B hotels & resorts properties
                       with up to 30% savings, manage all your company bookings
                       on a single portal, and say good-bye to third-party
                       commissions.
@@ -254,3 +254,4 @@ const Innovative = () => {
 };
 
 export default Innovative;
+

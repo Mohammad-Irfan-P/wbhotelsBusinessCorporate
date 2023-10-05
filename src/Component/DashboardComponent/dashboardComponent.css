@@ -1,0 +1,87 @@
+/* wallet component css file.... */
+
+.wallet-dashboard-component {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 4px;
+}
+
+.wallet-dashboard-component h2,
+.amount-payable-content h2 {
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.wallet-main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wallet-balance {
+  border-right: 1px solid rgb(203, 195, 195);
+}
+
+.wallet-balance h4,
+.walllet-date h4 {
+  padding: 0;
+  font-size: 18px;
+  margin: 0;
+}
+
+.wallet-balance p,
+.walllet-date p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 10px;
+  color: #656060;
+}
+
+/* amount payable component start here... */
+
+.amount-payable-container {
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 35%;
+  border-radius: 4px;
+}
+
+.amount-payable-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.amount-payable-content p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.input-content-div {
+  box-shadow: rgba(150, 138, 187, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  border-radius: 4px;
+}
+.input-content-div input {
+  border: none;
+  font-size: 16px;
+  padding: 14px 10px;
+  outline: none;
+}
+.input-content-div button {
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgb(37, 14, 189),
+    rgb(6, 14, 122)
+  );
+}
